@@ -158,4 +158,4 @@ So, I’m thankful for your visit. Looking forward to hear more from you.
 
 ### Other Notes
 - [[My Digital Garden/Test Note\|Test Note]]
-- [[My Digital Garden/Let's Learn/Shaders/Stripes\|Stripes]]
+- [[Stripes \| Let's Learn Shaders - Stripes]]
