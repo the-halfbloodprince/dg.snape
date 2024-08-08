@@ -156,4 +156,6 @@ So, I’m thankful for your visit. Looking forward to hear more from you.
 
 [https://giphy.com/gifs/theoffice-ZfK4cXKJTTay1Ava29](https://giphy.com/gifs/theoffice-ZfK4cXKJTTay1Ava29)
 
-[[My Digital Garden/Test Note\|Test Note]]
+### Other Notes
+- [[My Digital Garden/Test Note\|Test Note]]
+- [[Stripes \| Let's Learn Shaders - Stripes]]
