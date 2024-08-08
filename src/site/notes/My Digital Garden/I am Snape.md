@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/my-digital-garden/i-am-snape/","tags":["gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"dg-path":"I am Snape.md","permalink":"/i-am-snape/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
 ### Hey there 👋
