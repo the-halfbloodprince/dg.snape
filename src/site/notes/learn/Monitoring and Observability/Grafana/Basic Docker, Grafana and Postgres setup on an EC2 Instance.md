@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/basic-docker-grafana-and-postgres-setup-on-an-ec-2-instance/","noteIcon":""}
+{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/basic-docker-grafana-and-postgres-setup-on-an-ec-2-instance/","noteIcon":"","updated":"2024-08-18T01:09:00.639+05:30"}
 ---
 
 # Basic Docker, Grafana and Postgres setup on an EC2 Instance

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/grafana/","noteIcon":""}
+{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/grafana/","noteIcon":"","updated":"2024-08-18T00:58:35.761+05:30"}
 ---
 
 ### Learning Progress

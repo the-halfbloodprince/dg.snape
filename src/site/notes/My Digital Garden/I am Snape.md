@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"I am Snape.md","permalink":"/i-am-snape/","tags":["gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"dg-path":"I am Snape.md","permalink":"/i-am-snape/","tags":["gardenEntry"],"noteIcon":"","updated":"2024-08-18T01:49:32.943+05:30"}
 ---
 
 ### Hey there 👋
@@ -22,6 +22,10 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
 
 ### Internships and Work Experiences
 
+- **Full-Stack Software Development Engineer**
+
+	Company: [**Preimage**](https://www.linkedin.com/company/preimage/)
+
 - **Software Development Intern (Full Stack and Web Graphics)**
     
     Company: [**Preimage**](https://www.linkedin.com/company/preimage/)
@@ -32,6 +36,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
     - Had hands on experience with multiple tools like React, `OpenLayers` etc. to add features on top of real world maps on the raster viewer.
     - Worked with various geospatial libraries like `Georaster`, `Geoblaze` to process large scale and high precision Cloud Optimized `GeoTIFFs`.
     - Contributed to the main photogrammetry web application handling the task of uploading and processing of inputs and viewing outputs.
+
 - **Web Developer**
     
     Company: [**Artificial Brix**](https://www.linkedin.com/company/artificial-brix/?originalSubdomain=in)
@@ -41,6 +46,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
     - Worked on architecting and implementing a modular and scalable frontend for a mental health application with 5+ redux store slices.
     - Mentored open-source projects at various events and competitions such as Hacktoberfest 2021 and Kharagpur Winter of Code 2021.
     - Working on innovative future approaches to integrate the ML model to run on the frontend securely and efficiently along with ONNX.
+
 - **Software Development Intern (Full Stack)**
     
     Company: [**Krishi Network**](https://www.linkedin.com/company/krishi-network/?originalSubdomain=in)
@@ -50,6 +56,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
     - Worked on fixing bugs and implementing features for Krishi Network's Gram Pracharak Android app currently with 10T+ downloads.
     - Built a cross-platform portal from scratch using Flutter with 20+ responsive flutter widgets following properly laid design guidelines.
     - Worked on implementing and maintaining a robust backend serving 10K+ requests daily in production with Flask and PostgreSQL.
+
 - **Contributor**
     
     Org: [**DSC NSEC Winter of Code**](https://winterofcode.com/)
@@ -61,6 +68,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
     - Worked with a team of 3+ members implementing an interactive portal showing a user's statistics fetched from GitHub like languages etc.
     - Implemented OAuth with GitHub using Firebase, data extraction with the GitHub API (Octokit) and a responsive UI with React and Redux.
     - Built a REST API using Express with authorization and structured CRUD operations with appropriate documentation and modular code.
+
 - **Research Intern**
     
     Company: [SSERD](https://www.linkedin.com/company/sserd/)
@@ -82,6 +90,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
     - Worked collaboratively with a team of 4 members to create a Web-3 NFT Marketplace within 2 weeks successfully securing 1st position.
     - Added essential features like Minting, Metamask Integration, Buying / Selling, Profile Rating, Transaction History, with thoughtful UX.
     - Worked with various trusted tools such as React and Mantine creating a rich UX with Drag-&-Drop, rich alerts and loading animations.
+
 - **Best Feature Award | TSG Website Hackathon**
     
     Organizers: **Technology Students’ Gymkhana, IIT Kharagpur**
@@ -90,6 +99,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
     
     - Built a portal with **10+ features** to track and notify about events, distribute certificates for students and manage societies.
     - Built a modern UI with **20+ mockup frames** using tools such as **Figma** and **Material Design** and a robust frontend with **React**.
+
 - **5th Position | Accenture AI Hackathon**
     
     Team: Team Pink Panthers
