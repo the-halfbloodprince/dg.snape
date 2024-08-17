@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/basic-docker-grafana-and-postgres-setup-on-an-ec-2-instance/","noteIcon":""}
 ---
 
+# Basic Docker, Grafana and Postgres setup on an EC2 Instance
+
 - Initialized an [[ec2\|ec2]] instance
 - Installed [[docker\|docker]] in it
 	- `sudo yum install -y docker`

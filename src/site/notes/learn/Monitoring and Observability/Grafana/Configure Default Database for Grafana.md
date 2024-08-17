@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/configure-default-database-for-grafana/","noteIcon":""}
 ---
 
+# Configure Default Database for Grafana
+
 - Added [[postgres\|postgres]] as the default db for [[learn/Monitoring and Observability/Grafana/Grafana\|grafana]] instead of the default [[sqlite\|sqlite]] database
 	- Started [[postgres\|postgres]] with [[docker\|docker]]
 		- `docker run -d -p 5432:5432 --name=postgres -e POSTGRES_PASSWORD=hehe -v postgres-data:/var/lib/postgresql/data postgres`
