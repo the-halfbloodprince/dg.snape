@@ -156,8 +156,8 @@ So, I’m thankful for your visit. Looking forward to hear more from you.
 
 [https://giphy.com/gifs/theoffice-ZfK4cXKJTTay1Ava29](https://giphy.com/gifs/theoffice-ZfK4cXKJTTay1Ava29)
 
-current Digital Garden theme used: mono black (monochrome, charcoal)
-base theme: dark
+Current Digital Garden theme used: _mono black (monochrome, charcoal)_
+Base theme: _dark_
 ### Other Notes
 - [[My Digital Garden/Test Note\|Test Note]]
 - [[learn/Let's Learn\|Let's Learn]]
