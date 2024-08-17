@@ -8,7 +8,7 @@ I'm Manish, a Full Stack Software Developer with interest and experience in crea
 
 ### What is this? 📑
 
-I'm currently working on creating a one stop site for all I have to showcase and share, aka, my portfolio site. Till then, I'm using a temporary Notion page to do the job. There's still a lot to update in this page as well, but I hope you'll find what you're looking for somewhere here.
+I'm currently not actively working on creating my portfolio site. When I do it, I wanna do one that I am really proud of (doesn't necessarily mean super complex and fascinating, just a good one not very much like anyone else's). Till then, I'm using a temporary Obsidian Note and publish it using Digital Garden (https://dg-docs.ole.dev/) to do the job. I also document stuff I learn as well here. There's still a lot to update in this page as well, but I hope you'll find what you're looking for somewhere here.
 
 ### Important Links ❄️
 
