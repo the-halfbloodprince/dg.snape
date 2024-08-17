@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"dg themes.md","permalink":"/dg-themes/","noteIcon":"","updated":"2024-08-09T01:27:22.477+05:30"}
+{"dg-publish":true,"dg-path":"dg themes.md","permalink":"/dg-themes/","noteIcon":""}
 ---
 
 - Creme Brulee

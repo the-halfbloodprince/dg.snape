@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/configure-default-database-for-grafana/","noteIcon":"","updated":"2024-08-18T01:09:14.003+05:30"}
+{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/configure-default-database-for-grafana/","noteIcon":""}
 ---
 
 # Configure Default Database for Grafana

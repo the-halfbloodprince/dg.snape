@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/learn/shaders/stripes/","noteIcon":"","updated":"2024-08-14T20:46:23.819+05:30"}
+{"dg-publish":true,"permalink":"/learn/shaders/stripes/","noteIcon":""}
 ---
 
 #shader #glsl #3D #webgl

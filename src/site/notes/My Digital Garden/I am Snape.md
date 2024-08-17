@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"I am Snape.md","permalink":"/i-am-snape/","tags":["gardenEntry"],"noteIcon":"","updated":"2024-08-18T01:49:32.943+05:30"}
+{"dg-publish":true,"dg-path":"I am Snape.md","permalink":"/i-am-snape/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
 ### Hey there 👋
