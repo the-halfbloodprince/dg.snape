@@ -1,0 +1,41 @@
+---
+{"dg-publish":true,"permalink":"/learn/monitoring-and-observability/grafana/configure-default-database-for-grafana/","noteIcon":""}
+---
+
+- Added [[postgres\|postgres]] as the default db for [[learn/Monitoring and Observability/Grafana/Grafana\|grafana]] instead of the default [[sqlite\|sqlite]] database
+	- Started [[postgres\|postgres]] with [[docker\|docker]]
+		- `docker run -d -p 5432:5432 --name=postgres -e POSTGRES_PASSWORD=hehe -v postgres-data:/var/lib/postgresql/data postgres`
+	- created a new user `grafana` in it
+		- launch [[psql\|psql]] inside the container
+			- `docker exec -it postgres bash`
+		- launch [[psql\|psql]] as user `postgres` and db `postgres`
+			- `psql -U postgres`
+		- create new user for [[learn/Monitoring and Observability/Grafana/Grafana\|grafana]]
+			- `create user grafana with password 'grafana';`
+			- Assign it `createdb` permissions: `alter user grafana createdb;`
+		- quit from `postgres` db
+			- `\q`
+		- launch [[psql\|psql]] as user `grafana` and db `postgres`
+			- `psql -U grafana`
+				- this will throw an error as it tries to find a database with the same name as the user, ie, `grafana` in our case
+			- so run `psql -U grafana -d postgres`
+		- now create a new `grafana` database
+			- `create database grafana;`
+		- quit
+			- `\q`
+		- test launching it with `grafana`
+			- `psql -U grafana`
+	- test it's connection in [[dbeaver\|dbeaver]]
+	- now create new [[learn/Monitoring and Observability/Grafana/Grafana\|grafana]] container with `grafana` database in `postgres`
+		- `docker run -d -p 3010:3000 --name=grafana --volume grafana-storage:/var/lib/grafana -e "GF_DATABASE_TYPE=postgres" -e "GF_DATABASE_HOST=13.53.54.198:5432" -e "GF_DATABASE_NAME=grafana" -e "GF_DATABASE_USER=grafana" -e "GF_DATABASE_PASSWORD=grafana" grafana/grafana-enterprise`
+		- these are the environment variables needed to configure the default database in [[learn/Monitoring and Observability/Grafana/Grafana\|grafana]]. all the environment variables can be found here: https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/
+		- the environment variables are formatted as: `GF_<SectionName>_<KeyName>`
+		- eg:
+			- ![Pasted image 20240818004420.png](/img/user/learn/Monitoring%20and%20Observability/Grafana/Pasted%20image%2020240818004420.png)
+	- login and create admin user (username: admin, password: admin). everything will be reset as the database is changed.
+	- after adding the user and setting up new password, in our case, admin. check the users table in the db.
+		- we see we have the [[learn/Monitoring and Observability/Grafana/Grafana\|grafana]] database along with the default `postgres` database:
+			- ![Pasted image 20240818004646.png](/img/user/learn/Monitoring%20and%20Observability/Grafana/Pasted%20image%2020240818004646.png)
+		- we have all these tables in it: ![Pasted image 20240818004727.png](/img/user/learn/Monitoring%20and%20Observability/Grafana/Pasted%20image%2020240818004727.png)
+		- let's open the users table. we see we indeed have the admin user we created in the db: ![Pasted image 20240818004839.png](/img/user/learn/Monitoring%20and%20Observability/Grafana/Pasted%20image%2020240818004839.png)
+- that's all for today mainly. next let's setup some [[Grafana Datasources\|datasources]].
