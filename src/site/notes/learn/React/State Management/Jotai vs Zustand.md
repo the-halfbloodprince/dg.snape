@@ -20,4 +20,4 @@
 - example: ![Pasted image 20240902180346.png](/img/user/learn/React/State%20Management/Pasted%20image%2020240902180346.png)
 - not a shared state but a well defined machine
 - say we have a state with multiple keys in it, and we just want to subscribe to one specific key in the object
-- if we are using that key this will only update when that key changes
+- if we are selecting that key this will only update when that key changes
