@@ -15,4 +15,4 @@ for State Management, use:
 - [[XState\|XState]]
 
 for State Synchronization
-- React Query
+- [[Tanstack Query\|Tanstack Query]]
