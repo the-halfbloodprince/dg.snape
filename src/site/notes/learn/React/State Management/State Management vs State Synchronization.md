@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/learn/react/state-management/state-management-vs-state-synchronization/","noteIcon":""}
 ---
 
-managing state across client components -> [[State Management\|State Management]]
+managing state across client components -> [[learn/React/State Management/State Management\|State Management]]
 keeping client state and server state up to date with each other -> [[State Synchronization\|State Synchronization]]
 
 for State Management, use:
