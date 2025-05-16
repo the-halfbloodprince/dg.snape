@@ -3,7 +3,7 @@
 ---
 
 # Jotai and Zustand together: Chat with ChatGPT
-## is it wise to use [[jotai\|jotai]] and [[zustand\|zustand]] together?
+## is it wise to use [[learn/React/State Management/Jotai/Jotai\|jotai]] and [[zustand\|zustand]] together?
 Using Jotai and Zustand together can be beneficial, depending on your application's needs. Both libraries are lightweight state management solutions, but they serve slightly different purposes:
 
 - **Zustand**: Primarily used for managing global state, it is well-suited for scenarios where you need to share state across multiple components or manage more complex state logic, like asynchronous actions.

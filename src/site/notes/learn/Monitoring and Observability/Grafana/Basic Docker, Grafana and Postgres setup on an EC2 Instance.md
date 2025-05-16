@@ -4,7 +4,7 @@
 
 # Basic Docker, Grafana and Postgres setup on an EC2 Instance
 
-- Initialized an [[ec2\|ec2]] instance
+- Initialized an [[learn/Cloud/Amazon Web Services (AWS)/EC2/EC2\|EC2]] instance
 - Installed [[docker\|docker]] in it
 	- `sudo yum install -y docker`
 	- `sudo service docker start`

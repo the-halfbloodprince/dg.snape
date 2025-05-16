@@ -9,7 +9,7 @@ for State Management, use:
 - `useState` and [[learn/React/State Management/React Context\|React Context]]
 - [[Redux\|Redux]] and [[RTK (Redux Toolkit)\|RTK (Redux Toolkit)]] (Recommended)
 - [[Zustand\|Zustand]] (Recommended)
-- [[Jotai\|Jotai]] (Recommended)
+- [[learn/React/State Management/Jotai/Jotai\|Jotai]] (Recommended)
 - [[Recoil\|Recoil]]
 - [[MobX\|MobX]]
 - [[XState\|XState]]

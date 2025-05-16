@@ -9,7 +9,7 @@
 
 ![Pasted image 20240902175827.png](/img/user/learn/React/State%20Management/Pasted%20image%2020240902175827.png)
 
-### [[Jotai\|Jotai]]
+### [[learn/React/State Management/Jotai/Jotai\|Jotai]]
 - very good for almost everything
 - if you need to expose specific functions etc and not any mutation, then you'll need an extra layer
 - whichever atom needs change, just update that
@@ -25,7 +25,7 @@
 - but if we use say a method in the [[zustand\|zustand]] store, that component won't update
 - can be natively used without [[learn/React/React\|React]] as well (externally managed data which is internally operated)
 
-### Why [[Zustand\|Zustand]] preferred over [[Jotai\|Jotai]] mostly?
+### Why [[Zustand\|Zustand]] preferred over [[learn/React/State Management/Jotai/Jotai\|Jotai]] mostly?
 https://www.reddit.com/r/reactjs/comments/1ctsnov/why_choose_zustand_over_jotai/
 
 >They can pretty much do the same things as the other, it's more of the mental model that might change. Zustand is viewed as more of a global store while Jotai has individual functions/atoms. Keep in mind that Zustand can have context and small stores while Jotai can become global.
@@ -53,7 +53,7 @@ https://www.reddit.com/r/reactjs/comments/1ctsnov/why_choose_zustand_over_jotai/
 >
 >[this video](https://youtu.be/5-1LM2NySR0) explains it a lot better.
 
-### A really good example for [[Jotai\|Jotai]] vs [[learn/React/State Management/React Context\|React Context]]
+### A really good example for [[learn/React/State Management/Jotai/Jotai\|Jotai]] vs [[learn/React/State Management/React Context\|React Context]]
 https://www.reddit.com/r/reactjs/comments/1ctsnov/comment/l4fpweu/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 >Everything you said is right, but I feel like it helps to show a specific situation
