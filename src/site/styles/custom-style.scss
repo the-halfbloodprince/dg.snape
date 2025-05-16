@@ -22,7 +22,7 @@ body {
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Merienda', sans-serif !important;
 
-      *::after {
+      &::after {
         content: '';
         width: 100%;
         height: 2px;
