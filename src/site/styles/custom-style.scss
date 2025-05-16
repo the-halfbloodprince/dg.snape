@@ -21,6 +21,16 @@ body {
 
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Merienda', sans-serif !important;
+
+      *::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        background: #6a26cd;
+      }
       // color: #CF0F47 !important;
       // font-size: 2em;
     }
