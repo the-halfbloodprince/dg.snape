@@ -16,15 +16,16 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
 
-    background: #26355D;
+    background: #000000;
+    color: #F8EEDF;
 
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Merienda', sans-serif !important;
-      color: #AF47D2 !important;
+      color: #8E1616 !important;
       font-size: 2em;
     }
 
-    --primary-color: #FF8F00;
+    --primary-color: #E8C999;
 
     --link-color: var(--primary-color);
     --link-external-color: var(--primary-color);
