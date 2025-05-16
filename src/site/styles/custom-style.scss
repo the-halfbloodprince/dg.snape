@@ -17,15 +17,15 @@ body {
     font-style: normal;
 
     background: #000000;
-    color: #F8EEDF;
+    color: #FFDEDE !important;
 
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Merienda', sans-serif !important;
-      color: #8E1616 !important;
+      color: #CF0F47 !important;
       font-size: 2em;
     }
 
-    --primary-color: #E8C999;
+    --primary-color: #FF0B55;
 
     --link-color: var(--primary-color);
     --link-external-color: var(--primary-color);
