@@ -20,4 +20,9 @@ body {
       font-family: 'Merienda', sans-serif !important;
       font-size: 2em;
     }
+
+    --primary-color: #0BDA51;
+
+    --link-color: var(--primary-color);
+    --link-external-color: var(--primary-color);
 }
