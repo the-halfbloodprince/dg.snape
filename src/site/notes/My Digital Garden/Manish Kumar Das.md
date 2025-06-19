@@ -22,7 +22,7 @@ I'm currently not actively working on creating my portfolio site. When I do it, 
 
 ### Internships and Work Experiences
 
-- **Full-Stack Software Development Engineer**
+- **Software Development Engineer (Full-Stack)**
 
 	Company: [**Preimage**](https://www.linkedin.com/company/preimage/)
 
