@@ -1,0 +1,58 @@
+---
+{"dg-publish":true,"permalink":"/learn/concepts/crd-ts-conflict-free-replicated-data-types/","noteIcon":""}
+---
+
+Notes formed from https://www.youtube.com/watch?v=EL-VoBcUIJk
+
+- [[index shift problem\|index shift problem]]
+	- indices shift as users add or remove data messing up indices of the other operations to be committed
+	- indices are not stable references
+	- historically, solved using central authority
+		- [[pessimistic locking\|pessimistic locking]] -> if alice is typing, bob's document is locked, terrible ux
+	- [[operational transformation\|operational transformation]] -> 
+		- intercept every incoming operation
+		- calculate how every index has shifted
+		- mathematically transform the operation
+		- broadcast it back out
+		- incredibly complex and relies on a single server as the source of truth
+		- if someone goes offline its hard to merge the doc later
+- [[learn/Concepts/CRDTs (Conflict-free Replicated Data Types)\|CRDT]]s redefine the underlying data structure such that conflicts are mathematically impossible to begin with
+	- relies on 3 mathematical principles
+		- commutativity
+			- a + b = b + a
+			- order no matter
+		- associativity
+			- (a + b) + c = a + (b + c)
+			- grouping no matter
+		- idempotence
+			- f(f(x)) = f(x)
+			- repitition no matter
+	- example: Yjs
+	- gives every character a unique id, not a fractional num
+		- stores:
+			- which client typed it
+			- a counter that ticks up with every operation from that client
+	- eg:
+		- ![Pasted image 20260510041047.png|834](/img/user/learn/Concepts/Pasted%20image%2020260510041047.png)
+		- ![Pasted image 20260510041142.png](/img/user/learn/Concepts/Pasted%20image%2020260510041142.png)
+		- origin left and origin right stores what was there when this was written
+		- now its just a tiny linked list
+		- to insert 'h' in 2nd pos
+			- ![Pasted image 20260510041257.png](/img/user/learn/Concepts/Pasted%20image%2020260510041257.png)
+			- ![Pasted image 20260510041340.png](/img/user/learn/Concepts/Pasted%20image%2020260510041340.png)
+		- say, bob does the same,
+			- ![Pasted image 20260510041422.png](/img/user/learn/Concepts/Pasted%20image%2020260510041422.png)
+			- ![Pasted image 20260510041436.png](/img/user/learn/Concepts/Pasted%20image%2020260510041436.png)
+			- 2 characters trying to live in the same gap
+			- same neighbours, same window (C, A)
+			- when 2 or more share same origin window, sort them by client id
+			- because of how its done, it doesnt matter when the message comes in, even if it comes 3 days late, the server knows where to put it based off the neighbours and window
+			- deletion is soft
+				- ![Pasted image 20260510041851.png](/img/user/learn/Concepts/Pasted%20image%2020260510041851.png)
+	- guarantees eventual consistency purely through math
+	- enables local first software
+	- modern [[learn/Concepts/CRDTs (Conflict-free Replicated Data Types)\|CRDT]]s libs compress these unique ids and tombstones super heavily
+	- organizes into highly optimized data structures like [[Doubly Linked Linked Lists\|Doubly Linked Linked Lists]] and [[B-Trees\|B-Trees]]
+	- no need for a central coordinator
+	- immutable mathematically sound timeline or events
+	- append only
